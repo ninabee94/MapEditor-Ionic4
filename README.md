@@ -5,6 +5,14 @@
 
 ![alt](https://user-images.githubusercontent.com/57636419/69968834-3ba10300-1556-11ea-8bc4-80e0aa413a84.JPG)
 
+<b>Configure Googlemap API KEY</b>
+
+     1. go to https://console.developers.google.com/
+     2. library -> Maps SDK for Android -> Enable
+     3. dashboard -> credentials -> create credentials -> api key -> restrict key
+     4. API RESTRICTIONS:restrict key, SELECT API:maps sdk for android -> save
+     5. Copy the API KEY to add to project
+
 <b>Dpendencies</b>
 
      npm install --save rxjs
